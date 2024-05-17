@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor Hexadecimal/Decimal</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"> <!-- Fonte decorativa -->
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="#" class="navbar-brand"><img src="images.png" alt=""></a>
+            <ul class="navbar-menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <h1>Conversor Hexadecimal/Decimal</h1>
+        <select id="conversionType">
+            <option value="hexToDec">Hexadecimal para Decimal</option>
+            <option value="decToHex">Decimal para Hexadecimal</option>
+        </select>
+        <input type="text" id="inputNumber" placeholder="Digite um número">
+        <button onclick="convert()">Converter</button>
+        <p id="result"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
